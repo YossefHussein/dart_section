@@ -1,17 +1,17 @@
 void main(List<String> args) {
-  Cars cars = Cars('civic');
+  Car car = Car('civic');
 
   ///this anther way to call object
-  // Cars("honda");
+  // Car("honda");
 
   /// if you need value can't changing you can use final
   /// you don't can Declare in final and const variable le
-  //  cars.brand = 'honda';
+  //  Car.brand = 'honda';
 }
 
-class Cars {
+class Car {
   final String? brand;
-  Cars(String this.brand) {
+  Car(String this.brand) {
     print('$brand');
   }
 }

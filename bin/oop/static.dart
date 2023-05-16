@@ -1,8 +1,8 @@
 void main(List<String> args) {
-  Math.mathPrint();
+  MathPi.mathPrint();
 }
 
-class Math {
+class MathPi {
   static final double pi = 3.14;
   static mathPrint() {
     print(pi);
